@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DRSalesforceInterface_Example', :exclusive => true do
+  pod 'DRSalesforceInterface', :path => '../'
+end
+
+target 'DRSalesforceInterface_Tests', :exclusive => true do
+  pod 'DRSalesforceInterface', :path => '../'
+
+  
+end
