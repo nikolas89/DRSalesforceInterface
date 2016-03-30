@@ -1,9 +1,9 @@
 {
   "name": "DRSalesforceInterface",
   "version": "0.1.0",
-  "summary": "A short description of DRSalesforceInterface.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DRSalesforceInterface",
+  "summary": "A library for bulding native iOS apps that interact with the Salesforce platform.",
+  "description": "A lightweight library that wraps the Salesforce Mobile SDK for iOS, written in Objective-C.",
+  "homepage": "https://github.com/nikolas89/DRSalesforceInterface",
   "license": "MIT",
   "authors": {
     "nikolas89": "nikolasborman@rambler.ru"

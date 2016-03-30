@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DRSalesforceInterface: 38b23e3b63520c661ad02f28fdb09a992cc4a2ce
+  DRSalesforceInterface: d0b535983ccd21d72a29b589a7232f89876ae8ab
 
 COCOAPODS: 0.39.0

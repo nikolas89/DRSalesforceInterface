@@ -78,20 +78,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>043E040EEAAA48C98A392BB83EA84848</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C67A1AA6C50D104BB6522203AEF4B4A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>05E261D14851ACA0124F516030AF391D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -163,7 +149,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>EC4905B3C4C20801F241B4183757F43B</string>
+			<string>9CE2B5F8A0E32BD921988A96CF494ABC</string>
 			<key>remoteInfo</key>
 			<string>DRSalesforceInterface</string>
 		</dict>
@@ -273,19 +259,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>0F4CA9C7FCCFB8B134DD6BD21E1878BE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>24D2B9EEABDD599E7D6221316CF0CC9A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>10E8C2A7C8A84C795CA9E30989012242</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -297,56 +270,61 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>17175F1852914E27292337CD0DBE2503</key>
+		<key>1561CE6D6A06CC46B25CC4FF00D70E68</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>B5CF72CA1771825BA17482C1A8B346B9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>189FCBBBAE3B2EEA3792378A46A7FD5C</string>
-				<string>433D22F7EAF24AB46160828A1C754E6D</string>
-				<string>3440B74C3B3149B22ADC4BC56850CA0A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>baseConfigurationReference</key>
+			<string>D5200B5688310C5E317F4A0DC45FA547</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/DRSalesforceInterface/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>DRSalesforceInterface</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>DRSalesforceInterface-DRSalesforceInterface</string>
-			<key>productName</key>
-			<string>DRSalesforceInterface-DRSalesforceInterface</string>
-			<key>productReference</key>
-			<string>9CD75B1D17988E71CB5DAAD4942F4605</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>189FCBBBAE3B2EEA3792378A46A7FD5C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>19E5E56BD71A6260F01C76D7E650D2B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F9508DB232710CCEC7B91FFE31FA0E9B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Release</string>
 		</dict>
 		<key>207F751EB82B2A6D2997516B3B3A5AAE</key>
 		<dict>
@@ -371,47 +349,35 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>24D2B9EEABDD599E7D6221316CF0CC9A</key>
+		<key>23039ADA8B594A55BAF1A7844A3780B3</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>children</key>
+			<array>
+				<string>89BDFAD36A42D7D0FD21D92D5EF0AC77</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>256EE1BCE9A443C437235A6371020F8A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods_DRSalesforceInterface_Example.framework</string>
+			<string>Pod</string>
 			<key>path</key>
-			<string>Pods_DRSalesforceInterface_Example.framework</string>
+			<string>Pod</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2624A94239A59CCAC1A043D269F61637</key>
+		<key>232C8AE6567F211AF30AD90DC332A6DA</key>
 		<dict>
-			<key>fileRef</key>
-			<string>D7FA940428B32878B8D866AE04640268</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>901F72C9BD9D483F7376F736AE06A9E7</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>2ABF3DD40CE980BEF20C38CE71B78263</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>DRSalesforceInterface</string>
-			<key>target</key>
-			<string>EC4905B3C4C20801F241B4183757F43B</string>
-			<key>targetProxy</key>
-			<string>0621632575EBCDB8130A37B575BCE5CF</string>
-		</dict>
-		<key>2C99462E739961FD51103548A6B37328</key>
+		<key>250831D9F1C96C532D33EFFDD3AF7022</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>D5200B5688310C5E317F4A0DC45FA547</string>
@@ -431,7 +397,58 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Release</string>
+		</dict>
+		<key>256EE1BCE9A443C437235A6371020F8A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_DRSalesforceInterface_Example.framework</string>
+			<key>path</key>
+			<string>Pods_DRSalesforceInterface_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>26BEECE6C4C00B060AEEDCE62BAC2352</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>63A2517C3E1FDE8BFE46105CE6DB09A1</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5BFF24F63AE8DFC5B2DF78E36402EB5A</string>
+				<string>CED6B5984584A9A525B4AB1BE0AB0381</string>
+				<string>EC41446241A1A37E15286EB1A5BAA618</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>DRSalesforceInterface-DRSalesforceInterface</string>
+			<key>productName</key>
+			<string>DRSalesforceInterface-DRSalesforceInterface</string>
+			<key>productReference</key>
+			<string>9CD75B1D17988E71CB5DAAD4942F4605</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>2ABF3DD40CE980BEF20C38CE71B78263</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>DRSalesforceInterface</string>
+			<key>target</key>
+			<string>9CE2B5F8A0E32BD921988A96CF494ABC</string>
+			<key>targetProxy</key>
+			<string>0621632575EBCDB8130A37B575BCE5CF</string>
 		</dict>
 		<key>2CFA8939E6242082FDB854AC4B60D267</key>
 		<dict>
@@ -462,17 +479,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>3440B74C3B3149B22ADC4BC56850CA0A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>35C02D2750A4A290F1775C75A5C0382A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -485,6 +491,20 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3738CA1FF11B5A8C10291B1FB1A751BB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9F5B6D0E430D2362BF672D8FB102814E</string>
+				<string>87B942291449E92529191F6228E86A1B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>38554CA29ED2BCA871C71F2C415B5275</key>
 		<dict>
@@ -527,24 +547,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>433D22F7EAF24AB46160828A1C754E6D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>484D012AB6DE35FF8DC6E8179AE8DB2B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7AD76F1EE312B206F090E56F83810D3C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -704,6 +706,17 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>5BFF24F63AE8DFC5B2DF78E36402EB5A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>612946C8372BA76BAC6FDD84A0B98077</key>
 		<dict>
 			<key>containerPortal</key>
@@ -713,16 +726,36 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>EC4905B3C4C20801F241B4183757F43B</string>
+			<string>9CE2B5F8A0E32BD921988A96CF494ABC</string>
 			<key>remoteInfo</key>
 			<string>DRSalesforceInterface</string>
 		</dict>
-		<key>6275A1D917A454BDF379CB736B136705</key>
+		<key>63A027BD0E6B85856733FCA37A3A457C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>9CD75B1D17988E71CB5DAAD4942F4605</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B84C8AEE5F2A6947147F0588DBC3770E</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>63A2517C3E1FDE8BFE46105CE6DB09A1</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>AEB04A62DDF890C26B547EF88542ADCB</string>
+				<string>250831D9F1C96C532D33EFFDD3AF7022</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>68234EC163B2BD89C01EBA3FB35E6CD2</key>
 		<dict>
@@ -734,6 +767,32 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-DRSalesforceInterface_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6906EEB8102429E421BC8D24B89EE056</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>DRSalesforceInterface.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A21121A2826A25B96E5F0078AA9BD4D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>DRSalesforceInterface.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -775,17 +834,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>6D3C51312B5D53DA1EC98D67CA0CE1A1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>DRSalesforceInterface-DRSalesforceInterface</string>
-			<key>target</key>
-			<string>17175F1852914E27292337CD0DBE2503</string>
-			<key>targetProxy</key>
-			<string>98D8BB333084357FA5BE44F93C48656B</string>
-		</dict>
 		<key>6E5A6AA95D960F5E4440FA7E3B9989E3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -798,20 +846,6 @@
 			<string>Pods-DRSalesforceInterface_Tests-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75EF6D8EFF7E4A6C6C30809602940671</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>484D012AB6DE35FF8DC6E8179AE8DB2B</string>
-				<string>2624A94239A59CCAC1A043D269F61637</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>7A568E5163D8262F34EAB7E3C0D41C9C</key>
 		<dict>
@@ -1015,62 +1049,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>827BB2CDFEB69E90C8F33BC6A0FEAE62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D5200B5688310C5E317F4A0DC45FA547</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/DRSalesforceInterface/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>DRSalesforceInterface</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>830CAB7ACC456C7DDC5A6BB79C6533BC</key>
 		<dict>
 			<key>children</key>
@@ -1132,6 +1110,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>87B942291449E92529191F6228E86A1B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A21121A2826A25B96E5F0078AA9BD4D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>890AD805E4A8632528946F58E0D2449A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1145,24 +1137,101 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>90683E1E719461D46E438FBCE583AF40</key>
+		<key>89BDFAD36A42D7D0FD21D92D5EF0AC77</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>6275A1D917A454BDF379CB736B136705</string>
+				<string>6A21121A2826A25B96E5F0078AA9BD4D</string>
+				<string>6906EEB8102429E421BC8D24B89EE056</string>
 			</array>
 			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A6C6A9F87556B163BE0DA553D651F75</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D5200B5688310C5E317F4A0DC45FA547</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/DRSalesforceInterface/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>DRSalesforceInterface</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>901F72C9BD9D483F7376F736AE06A9E7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9417C753225327E7E03A961B0DB03CE8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>DRSalesforceInterface-DRSalesforceInterface</string>
+			<key>target</key>
+			<string>26BEECE6C4C00B060AEEDCE62BAC2352</string>
+			<key>targetProxy</key>
+			<string>EC8373B5D5C90E8F973F798352410742</string>
 		</dict>
 		<key>949BF47BA5217075F4855F5516DA4F27</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>19E5E56BD71A6260F01C76D7E650D2B0</string>
+				<string>23039ADA8B594A55BAF1A7844A3780B3</string>
 				<string>830CAB7ACC456C7DDC5A6BB79C6533BC</string>
 			</array>
 			<key>isa</key>
@@ -1174,18 +1243,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>98D8BB333084357FA5BE44F93C48656B</key>
+		<key>97684950FA8A000AB98D4566E6825D00</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>6906EEB8102429E421BC8D24B89EE056</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>17175F1852914E27292337CD0DBE2503</string>
-			<key>remoteInfo</key>
-			<string>DRSalesforceInterface-DRSalesforceInterface</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>99E1AC72752BC8FE75777A5C4A0922A5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8A6C6A9F87556B163BE0DA553D651F75</string>
+				<string>1561CE6D6A06CC46B25CC4FF00D70E68</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>9BCB2734CA3BE6B47187ECD6F19C33DD</key>
 		<dict>
@@ -1194,7 +1271,7 @@
 			<key>name</key>
 			<string>DRSalesforceInterface</string>
 			<key>target</key>
-			<string>EC4905B3C4C20801F241B4183757F43B</string>
+			<string>9CE2B5F8A0E32BD921988A96CF494ABC</string>
 			<key>targetProxy</key>
 			<string>612946C8372BA76BAC6FDD84A0B98077</string>
 		</dict>
@@ -1213,6 +1290,48 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>9CE2B5F8A0E32BD921988A96CF494ABC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>99E1AC72752BC8FE75777A5C4A0922A5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DEE9B66C5A9C011F8B5B7C67FC368BA1</string>
+				<string>232C8AE6567F211AF30AD90DC332A6DA</string>
+				<string>63A027BD0E6B85856733FCA37A3A457C</string>
+				<string>3738CA1FF11B5A8C10291B1FB1A751BB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9417C753225327E7E03A961B0DB03CE8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>DRSalesforceInterface</string>
+			<key>productName</key>
+			<string>DRSalesforceInterface</string>
+			<key>productReference</key>
+			<string>841B4F19A9E5A70F8DDC5F71C2DE93AE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>9F5B6D0E430D2362BF672D8FB102814E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C67A1AA6C50D104BB6522203AEF4B4A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>A4CFD061173475C80E3C1722E2EC6275</key>
 		<dict>
 			<key>children</key>
@@ -1225,6 +1344,35 @@
 			<string>Development Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AEB04A62DDF890C26B547EF88542ADCB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D5200B5688310C5E317F4A0DC45FA547</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>DRSalesforceInterface</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B1EF90AA6E15D90BD6E352718C6AC2D0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7AD76F1EE312B206F090E56F83810D3C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B2B3ED42CE5B1B6531702A32811CBC83</key>
 		<dict>
@@ -1239,20 +1387,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B5CF72CA1771825BA17482C1A8B346B9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2C99462E739961FD51103548A6B37328</string>
-				<string>FF5150F5560FC4DAC7D837199FD35E9B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
 		<key>B83570B9BFBA257D94F65B7ACF6016DA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1265,6 +1399,13 @@
 			<string>Pods-DRSalesforceInterface_Tests-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B84C8AEE5F2A6947147F0588DBC3770E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9CD75B1D17988E71CB5DAAD4942F4605</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B8B463AE58F03B88AED53872CE15116A</key>
 		<dict>
@@ -1333,20 +1474,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BFA7ED6384E1CEE682D845CBFE3CCBD5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>827BB2CDFEB69E90C8F33BC6A0FEAE62</string>
-				<string>C50AD2D66E5502110111721A787793F9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
 		<key>C0E96EBA6A067F5FD1ABCBD6B04F0110</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -1373,62 +1500,6 @@
 			<string>256EE1BCE9A443C437235A6371020F8A</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C50AD2D66E5502110111721A787793F9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D5200B5688310C5E317F4A0DC45FA547</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/DRSalesforceInterface/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/DRSalesforceInterface/DRSalesforceInterface.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>DRSalesforceInterface</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>C67A1AA6C50D104BB6522203AEF4B4A9</key>
 		<dict>
@@ -1468,6 +1539,17 @@
 			<string>Pods-DRSalesforceInterface_Tests-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CED6B5984584A9A525B4AB1BE0AB0381</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>CF7B224A6E5F43207054C37A144DFF08</key>
 		<dict>
@@ -1543,8 +1625,8 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>EC4905B3C4C20801F241B4183757F43B</string>
-				<string>17175F1852914E27292337CD0DBE2503</string>
+				<string>9CE2B5F8A0E32BD921988A96CF494ABC</string>
+				<string>26BEECE6C4C00B060AEEDCE62BAC2352</string>
 				<string>C0E96EBA6A067F5FD1ABCBD6B04F0110</string>
 				<string>6B65B872D3A8C7D1779E2233254AACE4</string>
 			</array>
@@ -1562,18 +1644,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D7FA940428B32878B8D866AE04640268</key>
+		<key>DEE9B66C5A9C011F8B5B7C67FC368BA1</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B1EF90AA6E15D90BD6E352718C6AC2D0</string>
+				<string>97684950FA8A000AB98D4566E6825D00</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReplaceMe.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>E5D45AC293BECBDFB5062B231B64BCF1</key>
 		<dict>
@@ -1596,33 +1679,29 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EC4905B3C4C20801F241B4183757F43B</key>
+		<key>EC41446241A1A37E15286EB1A5BAA618</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>BFA7ED6384E1CEE682D845CBFE3CCBD5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>75EF6D8EFF7E4A6C6C30809602940671</string>
-				<string>0F4CA9C7FCCFB8B134DD6BD21E1878BE</string>
-				<string>90683E1E719461D46E438FBCE583AF40</string>
-				<string>F74EEBE86DC23240DA33B56D7B85A15F</string>
-			</array>
-			<key>buildRules</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6D3C51312B5D53DA1EC98D67CA0CE1A1</string>
-			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DRSalesforceInterface</string>
-			<key>productName</key>
-			<string>DRSalesforceInterface</string>
-			<key>productReference</key>
-			<string>841B4F19A9E5A70F8DDC5F71C2DE93AE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EC8373B5D5C90E8F973F798352410742</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>26BEECE6C4C00B060AEEDCE62BAC2352</string>
+			<key>remoteInfo</key>
+			<string>DRSalesforceInterface-DRSalesforceInterface</string>
 		</dict>
 		<key>F2EF1508AC6BEAD31FE05ABBA6273AAE</key>
 		<dict>
@@ -1634,34 +1713,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-DRSalesforceInterface_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F74EEBE86DC23240DA33B56D7B85A15F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>043E040EEAAA48C98A392BB83EA84848</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F9508DB232710CCEC7B91FFE31FA0E9B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D7FA940428B32878B8D866AE04640268</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1717,28 +1768,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>FF5150F5560FC4DAC7D837199FD35E9B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D5200B5688310C5E317F4A0DC45FA547</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>DRSalesforceInterface</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
