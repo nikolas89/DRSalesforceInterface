@@ -1,0 +1,14 @@
+PODS:
+  - DRSalesforceInterface (0.1.0)
+
+DEPENDENCIES:
+  - DRSalesforceInterface (from `../`)
+
+EXTERNAL SOURCES:
+  DRSalesforceInterface:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DRSalesforceInterface: 38b23e3b63520c661ad02f28fdb09a992cc4a2ce
+
+COCOAPODS: 0.39.0
