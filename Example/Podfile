@@ -1,12 +1,17 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+
+platform :ios, '8.0'
 
 target 'DRSalesforceInterface_Example', :exclusive => true do
-  pod 'DRSalesforceInterface', :path => '../'
-end
 
-target 'DRSalesforceInterface_Tests', :exclusive => true do
-  pod 'DRSalesforceInterface', :path => '../'
+source 'https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
+  use_frameworks!
+  pod 'DRSalesforceInterface', :path => '../'
+  pod 'SalesforceSDKCore'
+  pod 'SalesforceNetwork'
+  pod 'SalesforceRestAPI'
+  pod 'SmartStore'
+  pod 'SmartSync'
   
 end

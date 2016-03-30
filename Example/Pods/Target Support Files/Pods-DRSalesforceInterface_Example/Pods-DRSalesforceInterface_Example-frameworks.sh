@@ -84,8 +84,22 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-DRSalesforceInterface_Example/CocoaLumberjack.framework"
   install_framework "Pods-DRSalesforceInterface_Example/DRSalesforceInterface.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SQLCipher.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SalesforceNetwork.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SalesforceRestAPI.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SalesforceSDKCore.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SmartStore.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SmartSync.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-DRSalesforceInterface_Example/CocoaLumberjack.framework"
   install_framework "Pods-DRSalesforceInterface_Example/DRSalesforceInterface.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SQLCipher.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SalesforceNetwork.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SalesforceRestAPI.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SalesforceSDKCore.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SmartStore.framework"
+  install_framework "Pods-DRSalesforceInterface_Example/SmartSync.framework"
 fi

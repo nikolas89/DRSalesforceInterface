@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '06306166C5946E6445D1495B'
+               BlueprintIdentifier = 'CC29DCB9D88D47C5A1E34889'
                BlueprintName = 'DRSalesforceInterface'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DRSalesforceInterface.framework'>
