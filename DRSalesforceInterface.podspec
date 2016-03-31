@@ -8,9 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "DRSalesforceInterface"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A library for bulding native iOS apps that interact with the Salesforce platform."
-
   s.description      = "A lightweight library that wraps the Salesforce Mobile SDK for iOS, written in Objective-C."
 
   s.homepage         = "https://github.com/nikolas89/DRSalesforceInterface"
@@ -20,7 +19,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/nikolas89/DRSalesforceInterface.git", :tag => s.version.to_s }
 
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -28,7 +27,22 @@ Pod::Spec.new do |s|
     'DRSalesforceInterface' => ['Pod/Assets/*.png']
   }
 
+  s.default_subspec = 'DRSalesforceInterface'
+
+  s.subspec 'DRSalesforceInterface' do |interface|
+    interface.dependency 'SalesforceSDKCore', '~> 4.1.1'
+  end
+
+
+
+
+
+
+
+
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'Foundation', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
 end
