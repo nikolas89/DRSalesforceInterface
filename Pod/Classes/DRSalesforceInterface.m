@@ -7,6 +7,12 @@
 //
 
 #import "DRSalesforceInterface.h"
+#import <SalesforceRestAPI/SFRestAPI.h>
+#import "SFRestAPI+Blocks.h"
+#import <SalesforceRestAPI/SFRestRequest.h>
+#import <SalesforceSDKCore/SFUserAccountManager.h>
+#import <SalesforceSDKCore/SFIdentityData.h>
+#import "SFRestAPI+Files.h"
 
 @interface DRSalesforceInterface ()
 

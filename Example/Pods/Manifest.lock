@@ -7,7 +7,12 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - DRSalesforceInterface (0.1.1)
+  - DRSalesforceInterface (0.1.3):
+    - SalesforceNetwork (~> 4.1.1)
+    - SalesforceRestAPI (~> 4.1.1)
+    - SalesforceSDKCore (~> 4.1.1)
+    - SmartStore (~> 4.1.1)
+    - SmartSync (~> 4.1.1)
   - SalesforceNetwork (4.1.1):
     - SalesforceNetwork/SalesforceNetwork (= 4.1.1)
   - SalesforceNetwork/SalesforceNetwork (4.1.1):
@@ -50,11 +55,11 @@ PODS:
 
 DEPENDENCIES:
   - DRSalesforceInterface (from `../`)
-  - SalesforceNetwork
-  - SalesforceRestAPI
-  - SalesforceSDKCore
-  - SmartStore
-  - SmartSync
+  - SalesforceNetwork (~> 4.1.1)
+  - SalesforceRestAPI (~> 4.1.1)
+  - SalesforceSDKCore (~> 4.1.1)
+  - SmartStore (~> 4.1.1)
+  - SmartSync (~> 4.1.1)
 
 EXTERNAL SOURCES:
   DRSalesforceInterface:
@@ -62,7 +67,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  DRSalesforceInterface: 6fe18c02503835e261c5d1eb1043d9d8a58f0b11
+  DRSalesforceInterface: 4c6f10c6e87ce5c9d7fab258650a8b1e0efc31c6
   SalesforceNetwork: ad6107821454c20e062965663636120ea06f82a3
   SalesforceRestAPI: 981a241137a8756709f163a8aa7b13f6a4686945
   SalesforceSDKCore: 2e062ccc854dd89f90d6461db804ff8b81fed84e

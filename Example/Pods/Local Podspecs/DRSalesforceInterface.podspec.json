@@ -1,6 +1,6 @@
 {
   "name": "DRSalesforceInterface",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "A library for bulding native iOS apps that interact with the Salesforce platform.",
   "description": "A lightweight library that wraps the Salesforce Mobile SDK for iOS, written in Objective-C.",
   "homepage": "https://github.com/nikolas89/DRSalesforceInterface",
@@ -10,16 +10,33 @@
   },
   "source": {
     "git": "https://github.com/nikolas89/DRSalesforceInterface.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "DRSalesforceInterface": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SalesforceSDKCore": [
+      "~> 4.1.1"
+    ],
+    "SalesforceNetwork": [
+      "~> 4.1.1"
+    ],
+    "SalesforceRestAPI": [
+      "~> 4.1.1"
+    ],
+    "SmartStore": [
+      "~> 4.1.1"
+    ],
+    "SmartSync": [
+      "~> 4.1.1"
     ]
   }
 }
